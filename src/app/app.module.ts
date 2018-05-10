@@ -7,6 +7,17 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
+import { QueHacemosComponent } from './que-hacemos/que-hacemos.component';
+import { FooterComponent } from './footer/footer.component';
+import { SaludcomunitariaComponent } from './saludcomunitaria/saludcomunitaria.component';
+import { VinculosolComponent } from './vinculosol/vinculosol.component';
+import { EducacionFormComponent } from './educacion-form/educacion-form.component';
+import { ProduccionComponent } from './produccion/produccion.component';
+import { EconomiaSolComponent } from './economia-sol/economia-sol.component';
+import { NuestraFilosofiaComponent } from './nuestra-filosofia/nuestra-filosofia.component';
+import { AntecedentesComponent } from './antecedentes/antecedentes.component';
+
+
 
 
 @NgModule({
@@ -15,7 +26,17 @@ import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
     NavbarComponent,
     HeaderComponent,
     HomeComponent,
-    QuienesSomosComponent
+    QuienesSomosComponent,
+    QueHacemosComponent,
+    FooterComponent,
+    SaludcomunitariaComponent,
+    VinculosolComponent,
+    EducacionFormComponent,
+    ProduccionComponent,
+    EconomiaSolComponent,
+    NuestraFilosofiaComponent,
+    AntecedentesComponent
+    
   ],
   imports: [
     BrowserModule,
